@@ -4,7 +4,7 @@ import {
   SiUnity,
   SiSharp,
   SiHtml5,
-  SiCss,
+  SiCss3,
   SiJavascript,
   SiGit,
   SiGithub,
@@ -15,7 +15,7 @@ const row1 = [
   { icon: SiUnity, name: "Unity", color: "#FFFFFF" },
   { icon: SiSharp, name: "C#", color: "#9B4F97" },
   { icon: SiHtml5, name: "HTML", color: "#E34F26" },
-  { icon: SiCss, name: "CSS", color: "#1572B6" },
+  { icon: SiCss3, name: "CSS", color: "#1572B6" },
 ]
 
 const row2 = [
