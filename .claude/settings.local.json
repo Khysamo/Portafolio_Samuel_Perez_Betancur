@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const si = require\\('react-icons/si'\\); const keys = Object.keys\\(si\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('sharp'\\) || k.toLowerCase\\(\\).includes\\('csharp'\\) || k.toLowerCase\\(\\).includes\\('photoshop'\\) || k.toLowerCase\\(\\).includes\\('visualstudio'\\) || k.toLowerCase\\(\\).includes\\('adobe'\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const si = require\\('react-icons/si'\\); const keys = Object.keys\\(si\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('visual'\\) || k.toLowerCase\\(\\).includes\\('vscode'\\) || k.toLowerCase\\(\\).includes\\('code'\\) || k.toLowerCase\\(\\).includes\\('photoshop'\\) || k.toLowerCase\\(\\).includes\\('adobe'\\) || k.toLowerCase\\(\\).includes\\('steam'\\)\\).slice\\(0,20\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}
