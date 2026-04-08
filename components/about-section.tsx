@@ -15,6 +15,7 @@ const groupColors: Record<string, string> = {
   Design: "#F24F13",
   Graphics: "#8082A6",
   Systems: "#46334F",
+  Soft: "#18A497",
 }
 
 export function AboutSection() {
