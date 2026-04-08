@@ -199,7 +199,7 @@ export function AboutSection() {
               <div>
                 <div
                   className="stat-counter font-display text-4xl font-bold text-[#F2C230]"
-                  data-target="10"
+                  data-target="8"
                 >
                   0+
                 </div>

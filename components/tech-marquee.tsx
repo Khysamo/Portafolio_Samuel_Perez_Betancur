@@ -2,43 +2,27 @@
 
 import {
   SiUnity,
-  SiUnrealengine,
-  SiBlender,
   SiSharp,
-  SiCplusplus,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
   SiGit,
-  SiReact,
-  SiFigma,
-  SiSteam,
   SiGithub,
-  SiVim,
-  SiPhotopea,
-  SiJira,
-  SiSlack,
-  SiNodedotjs,
-  SiTypescript,
+  SiFigma,
 } from "react-icons/si"
 
 const row1 = [
   { icon: SiUnity,        name: "Unity",          color: "#FFFFFF" },
-  { icon: SiUnrealengine, name: "Unreal Engine",  color: "#DA1F26" },
-  { icon: SiBlender,      name: "Blender",        color: "#F5792A" },
   { icon: SiSharp,        name: "C#",             color: "#9B4F97" },
-  { icon: SiCplusplus,    name: "C++",            color: "#00599C" },
-  { icon: SiGit,          name: "Git",            color: "#F05032" },
-  { icon: SiReact,        name: "React",          color: "#61DAFB" },
-  { icon: SiFigma,        name: "Figma",          color: "#F24E1E" },
+  { icon: SiHtml5,        name: "HTML",           color: "#E34F26" },
+  { icon: SiCss3,         name: "CSS",            color: "#1572B6" },
 ]
 
 const row2 = [
-  { icon: SiSteam,        name: "Steam",          color: "#C5C3C0" },
+  { icon: SiJavascript,   name: "JavaScript",     color: "#F7DF1E" },
+  { icon: SiGit,          name: "Git",            color: "#F05032" },
   { icon: SiGithub,       name: "GitHub",         color: "#FFFFFF" },
-  { icon: SiVim,          name: "Vim",            color: "#019733" },
-  { icon: SiPhotopea,     name: "Photopea",       color: "#18A497" },
-  { icon: SiJira,         name: "Jira",           color: "#0052CC" },
-  { icon: SiSlack,        name: "Slack",          color: "#4A154B" },
-  { icon: SiNodedotjs,    name: "Node.js",        color: "#339933" },
-  { icon: SiTypescript,   name: "TypeScript",     color: "#3178C6" },
+  { icon: SiFigma,        name: "Figma",          color: "#F24E1E" },
 ]
 
 function MarqueeRow({
