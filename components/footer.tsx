@@ -14,10 +14,10 @@ export function Footer() {
   const { t } = useLang()
 
   const navLinks = [
-    { name: t.nav.home,     href: "#home" },
-    { name: t.nav.about,    href: "#about" },
+    { name: t.nav.home, href: "#home" },
+    { name: t.nav.about, href: "#about" },
     { name: t.nav.projects, href: "#projects" },
-    { name: t.nav.contact,  href: "#contact" },
+    { name: t.nav.contact, href: "#contact" },
   ]
 
   return (
