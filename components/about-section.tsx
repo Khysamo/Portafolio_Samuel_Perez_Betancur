@@ -256,19 +256,12 @@ export function AboutSection() {
           {/* Skills */}
           <div className="glass rounded-2xl p-8">
             <h4 className="section-label mb-6">{t.about.skills_label}</h4>
-            <div className="skills-grid flex flex-wrap gap-2">
+            <div className="skills-grid flex flex-wrap gap-x-5 gap-y-3">
               {skills.map((skill, i) => (
-                <span
-                  key={i}
-                  className="skill-tag px-3 py-1.5 rounded-lg text-xs font-medium border transition-all duration-300 hover:scale-105 cursor-default"
-                  style={{
-                    color: groupColors[skill.group] || "#8082A6",
-                    borderColor: `${groupColors[skill.group]}30` || "rgba(128,130,166,0.2)",
-                    background: `${groupColors[skill.group]}10` || "rgba(128,130,166,0.05)",
-                  }}
-                >
-                  {skill.label}
-                </span>
+                <div key={i} className="skill-label flex items-center gap-2 transition-all duration-300 hover:scale-105">
+                  <span className="text-lg">{skill.icon}</span>
+                  <p className="text-white text-sm font-medium">{skill.label}</p>
+                </div>
               ))}
             </div>
           </div>
