@@ -75,6 +75,19 @@ const projects = [
     embedUrl: "https://www.behance.net/embed/project/247123597?ilo0=1",
     behanceUrl: "https://www.behance.net/gallery/247123597/Figma",
   },
+  {
+    id: 6,
+    title: "Morfosis",
+    category: "Proyecto",
+    description: "Proyecto Morfosis de Behance.",
+    fullDescription:
+      "Exploración y desarrollo del proyecto Morfosis. Un nuevo trabajo de diseño publicado en mi portafolio de Behance.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop",
+    technologies: ["Diseño"],
+    color: "#F24F13",
+    embedUrl: "https://www.behance.net/embed/project/248431379?ilo0=1",
+    behanceUrl: "https://www.behance.net/gallery/248431379/Morfosis",
+  },
 ]
 
 interface Project {
